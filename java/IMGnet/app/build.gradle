@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'com.microsoft.onnxruntime:onnxruntime:1.18.0'
+    implementation 'org.bytedeco:opencv:4.9.0-1.5.10'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+}
+
+application {
+    mainClass = 'imgnet.Main'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
