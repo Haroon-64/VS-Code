@@ -1,0 +1,1 @@
+conda create -n torch python=3.11  numpy pandas matplotlib scikit-learn seaborn graphviz tqdm  tensorboardx opencv pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 

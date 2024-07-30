@@ -1,0 +1,260 @@
+linux_kernel
+.vs/ProjectSettings.json
+.vscode
+.idea
+.fleet
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/VS Code/FileContentIndex/9e778c2f-c1d2-4c5a-8e66-7b9ad090d35d.vsidx
+.vs/VS Code/FileContentIndex/96d6814d-721e-463b-9b08-73b28742762f.vsidx
+.vs/VS Code/FileContentIndex/27620c2f-bbaa-476a-9301-cfeefeba6e6c.vsidx
+.vs/VS Code/FileContentIndex/read.lock
+.vs/VS Code/v17/.wsuo
+.vs/VS Code/v17/Browse.VC.db
+.vs/VS Code/v17/workspaceFileList.bin
+.vs/VS Code/v17/ipch/AutoPCH/591e94ca6339b54f/TEMPCODERUNNERFILE.ipch
+.vs/VS Code/v17/ipch/AutoPCH/6a0eab0b29842110/STRUT.ipch
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+c/LetUsCsolution/Chapter6/Question(g).c
+c/LetUsCsolution/Chapter6/Question(l).c
+zc/C programs/Algorithms/Searching/BinarySearch.c
+zc/C programs/Algorithms/Searching/BinarySearch.exe
+zc/C programs/Algorithms/Searching/LinearSearch.c
+zc/C programs/Algorithms/Searching/LinearSearch.exe
+zc/C programs/Algorithms/Sorting/bubble_sort.c
+zc/C programs/Algorithms/Sorting/bubble_sort.exe
+zc/C programs/Algorithms/Sorting/count_sort.c
+zc/C programs/Algorithms/Sorting/count_sort.exe
+zc/C programs/Algorithms/Sorting/insertionSort.c
+zc/C programs/Algorithms/Sorting/insertionSort.exe
+zc/C programs/Algorithms/Sorting/radix_sort.c
+zc/C programs/Algorithms/Sorting/radix_sort.exe
+zc/C programs/Algorithms/Sorting/selectionSort.c
+zc/C programs/Algorithms/Sorting/selectionSort.exe
+zc/C programs/Arrays/1_array_end_insertion.c
+zc/C programs/Arrays/1_array_end_insertion.exe
+zc/C programs/Arrays/2_array_end_insertion.c
+zc/C programs/Arrays/2_array_end_insertion.exe
+zc/C programs/DSALab/array.c
+zc/C programs/DSALab/array.exe
+zc/C programs/DSALab/bubble_sort.c
+zc/C programs/DSALab/bubble_sort.exe
+zc/C programs/DSALab/circular_queue.c
+zc/C programs/DSALab/deletion.c
+zc/C programs/DSALab/deletion.exe
+zc/C programs/DSALab/doubly_circular_linked.c
+zc/C programs/DSALab/doubly_circular_linked.exe
+zc/C programs/DSALab/doubly_linked_list.c
+zc/C programs/DSALab/doubly_linked_list.exe
+zc/C programs/DSALab/doubly.c
+zc/C programs/DSALab/doubly.exe
+zc/C programs/DSALab/graphs.c
+zc/C programs/DSALab/hashing.c
+zc/C programs/DSALab/hashing.exe
+zc/C programs/DSALab/HashMaps.c
+zc/C programs/DSALab/HashMaps.exe
+zc/C programs/DSALab/insertion.c
+zc/C programs/DSALab/insertion.exe
+zc/C programs/DSALab/matrix_addition.c
+zc/C programs/DSALab/matrix_addition.exe
+zc/C programs/DSALab/matrix_multiplication.c
+zc/C programs/DSALab/matrix_multiplication.exe
+zc/C programs/DSALab/queue2.c
+zc/C programs/DSALab/queue2.exe
+zc/C programs/DSALab/quick_sort.c
+zc/C programs/DSALab/quick_sort.exe
+zc/C programs/DSALab/singly_linked_list.c
+zc/C programs/DSALab/singly_linked_list.exe
+zc/C programs/DSALab/strings.c
+zc/C programs/DSALab/strings.exe
+zc/C programs/DSALab/strings2.c
+zc/C programs/DSALab/strings2.exe
+zc/C programs/DSALab/tempCodeRunnerFile.c
+zc/C programs/DSALab/test.c
+zc/C programs/DSALab/test.exe
+zc/C programs/Graphs/bfs.c
+zc/C programs/Graphs/bfs2.c
+zc/C programs/Graphs/bfs2.exe
+zc/C programs/Graphs/dfs.c
+zc/C programs/Graphs/dfs.exe
+zc/C programs/HashMaps/separateChaining.c
+zc/C programs/HashMaps/separateChaining.exe
+zc/C programs/LinkedList/1.Singly Linked List/1_intro.c
+zc/C programs/LinkedList/1.Singly Linked List/1_intro.exe
+zc/C programs/LinkedList/1.Singly Linked List/2_linked_list.c
+zc/C programs/LinkedList/1.Singly Linked List/2_linked_list.exe
+zc/C programs/LinkedList/1.Singly Linked List/3_count_nodes.c
+zc/C programs/LinkedList/1.Singly Linked List/3_count_nodes.exe
+zc/C programs/LinkedList/1.Singly Linked List/4_print_data.c
+zc/C programs/LinkedList/1.Singly Linked List/4_print_data.exe
+zc/C programs/LinkedList/1.Singly Linked List/5_end_insertion.c
+zc/C programs/LinkedList/1.Singly Linked List/5_end_insertion.exe
+zc/C programs/LinkedList/1.Singly Linked List/6_end_insertion.c
+zc/C programs/LinkedList/1.Singly Linked List/6_end_insertion.exe
+zc/C programs/LinkedList/1.Singly Linked List/7_beginning_insertion.c
+zc/C programs/LinkedList/1.Singly Linked List/7_beginning_insertion.exe
+zc/C programs/LinkedList/1.Singly Linked List/8_beginning_insertion.c
+zc/C programs/LinkedList/1.Singly Linked List/8_beginning_insertion.exe
+zc/C programs/LinkedList/1.Singly Linked List/9_insertion_at_pos.c
+zc/C programs/LinkedList/1.Singly Linked List/9_insertion_at_pos.exe
+zc/C programs/LinkedList/1.Singly Linked List/10_deleting_first_node.c
+zc/C programs/LinkedList/1.Singly Linked List/10_deleting_first_node.exe
+zc/C programs/LinkedList/1.Singly Linked List/11_deleting_last_node.c
+zc/C programs/LinkedList/1.Singly Linked List/11_deleting_last_node.exe
+zc/C programs/LinkedList/1.Singly Linked List/12_deleting_last_node.c
+zc/C programs/LinkedList/1.Singly Linked List/12_deleting_last_node.exe
+zc/C programs/LinkedList/1.Singly Linked List/13_deleting_any_node.c
+zc/C programs/LinkedList/1.Singly Linked List/13_deleting_any_node.exe
+zc/C programs/LinkedList/1.Singly Linked List/14_deleting_whole_list.c
+zc/C programs/LinkedList/1.Singly Linked List/14_deleting_whole_list.exe
+zc/C programs/LinkedList/1.Singly Linked List/15_reverse_linked_list.c
+zc/C programs/LinkedList/1.Singly Linked List/15_reverse_linked_list.exe
+zc/C programs/LinkedList/1.Singly Linked List/16_leetCode.c
+zc/C programs/LinkedList/1.Singly Linked List/16_leetCode.exe
+zc/C programs/LinkedList/2.Double Linked List/1_intro.c
+zc/C programs/LinkedList/2.Double Linked List/1_intro.exe
+zc/C programs/LinkedList/2.Double Linked List/2_insertion_at_beginning.c
+zc/C programs/LinkedList/2.Double Linked List/2_insertion_at_beginning.exe
+zc/C programs/LinkedList/2.Double Linked List/3_insertion_at_end.c
+zc/C programs/LinkedList/2.Double Linked List/3_insertion_at_end.exe
+zc/C programs/LinkedList/2.Double Linked List/4_insertion_at_pos.c
+zc/C programs/LinkedList/2.Double Linked List/4_insertion_at_pos.exe
+zc/C programs/LinkedList/2.Double Linked List/5_create_list.c
+zc/C programs/LinkedList/2.Double Linked List/5_create_list.exe
+zc/C programs/LinkedList/2.Double Linked List/6_deleting_first_node.c
+zc/C programs/LinkedList/2.Double Linked List/6_deleting_first_node.exe
+zc/C programs/LinkedList/2.Double Linked List/7_deleting_last_node.c
+zc/C programs/LinkedList/2.Double Linked List/7_deleting_last_node.exe
+zc/C programs/LinkedList/2.Double Linked List/8_deleting_intermediate_node.c
+zc/C programs/LinkedList/2.Double Linked List/8_deleting_intermediate_node.exe
+zc/C programs/LinkedList/2.Double Linked List/9_reversing_double_linked_list.c
+zc/C programs/LinkedList/2.Double Linked List/9_reversing_double_linked_list.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/1_creatingFirstNode.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/1_creatingFirstNode.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/2_insertion_at_beginning.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/2_insertion_at_beginning.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/3_insertion_at_the_end.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/3_insertion_at_the_end.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/4_insertion_at_pos.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/4_insertion_at_pos.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/5_creating_by_user_input.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/5_creating_by_user_input.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/6_deleting_first_node.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/6_deleting_first_node.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/7_deleting_last_node.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/7_deleting_last_node.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/8_deleting_intermediate_node.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/8_deleting_intermediate_node.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/9_counting_nodes.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/9_counting_nodes.exe
+zc/C programs/LinkedList/3.Circular Singly Linked List/10_searching_element.c
+zc/C programs/LinkedList/3.Circular Singly Linked List/10_searching_element.exe
+zc/C programs/LinkedList/4.Circular Doubly Linked List/2_insertion_at_beginning.c
+zc/C programs/LinkedList/4.Circular Doubly Linked List/2_insertion_at_beginning.exe
+zc/C programs/LinkedList/4.Circular Doubly Linked List/creating_first_node.c
+zc/C programs/LinkedList/4.Circular Doubly Linked List/creating_first_node.exe
+zc/C programs/LinkedList/Programs/infix_to_postfix.c
+zc/C programs/LinkedList/Programs/infix_to_postfix.exe
+zc/C programs/LinkedList/Programs/Insertion_in_Sorted_singly_List.c
+zc/C programs/LinkedList/Programs/Insertion_in_Sorted_singly_List.exe
+zc/C programs/LinkedList/Programs/merge_sort.c
+zc/C programs/LinkedList/Programs/merge_sort.exe
+zc/C programs/LinkedList/Programs/Middle_of_list.c
+zc/C programs/LinkedList/Programs/Middle_of_list.exe
+zc/C programs/LinkedList/Programs/polynomial_arthematic.c
+zc/C programs/LinkedList/Programs/polynomial_arthematic.exe
+zc/C programs/LinkedList/Programs/quick_sort.c
+zc/C programs/LinkedList/Programs/quick_sort.exe
+zc/C programs/LinkedList/Programs/quick_sort2.c
+zc/C programs/LinkedList/Programs/quick_sort2.exe
+zc/C programs/Queue/queue_operations.c
+zc/C programs/Queue/queue_operations.exe
+zc/C programs/Stacks/1_push.c
+zc/C programs/Stacks/1_push.exe
+zc/C programs/Stacks/2_pop.c
+zc/C programs/Stacks/2_pop.exe
+zc/C programs/Stacks/3_Full_Empty.c
+zc/C programs/Stacks/3_Full_Empty.exe
+zc/C programs/Stacks/4_user_input.c
+zc/C programs/Stacks/4_user_input.exe
+zc/C programs/Stacks/5_first_as_top.c
+zc/C programs/Stacks/5_first_as_top.exe
+zc/C programs/Stacks/6_del_first_top.c
+zc/C programs/Stacks/6_del_first_top.exe
+zc/C programs/Stacks/7_prime_factorization.c
+zc/C programs/Stacks/7_prime_factorization.exe
+zc/C programs/Stacks/8_Decimal_to_Bin.c
+zc/C programs/Stacks/8_Decimal_to_Bin.exe
+zc/C programs/Stacks/9_Stack_linkedList.c
+zc/C programs/Stacks/9_Stack_linkedList.exe
+zc/C programs/Strings/1_intro.c
+zc/C programs/Strings/1_intro.exe
+zc/C programs/Structures and Functions/armStrongNumber.c
+zc/C programs/Structures and Functions/armStrongNumber.exe
+zc/C programs/Structures and Functions/callbyreference.c
+zc/C programs/Structures and Functions/callbyreference.exe
+zc/C programs/Structures and Functions/freeMemory.c
+zc/C programs/Structures and Functions/freeMemory.exe
+zc/C programs/Structures and Functions/Function_question.c
+zc/C programs/Structures and Functions/Function_question.exe
+zc/C programs/Structures and Functions/infix_to_postfix.c
+zc/C programs/Structures and Functions/infix_to_postfix.exe
+zc/C programs/Structures and Functions/infix_to_postfix2.c
+zc/C programs/Structures and Functions/infix_to_postfix2.exe
+zc/C programs/Structures and Functions/malloc.c
+zc/C programs/Structures and Functions/malloc.exe
+zc/C programs/Structures and Functions/pointerToaPointer.c
+zc/C programs/Structures and Functions/pointerToaPointer.exe
+zc/C programs/Structures and Functions/Postfix_Evaluation.c
+zc/C programs/Structures and Functions/Postfix_Evaluation.exe
+zc/C programs/Structures and Functions/realloc.c
+zc/C programs/Structures and Functions/realloc.exe
+zc/C programs/Structures and Functions/self_referential_struct.c
+zc/C programs/Structures and Functions/self_referential_struct.exe
+zc/C programs/Structures and Functions/static.c
+zc/C programs/Structures and Functions/static2.c
+zc/C programs/Structures and Functions/struct1.c
+zc/C programs/Structures and Functions/struct2.c
+zc/C programs/Structures and Functions/struct2.exe
+zc/C programs/Structures and Functions/struct3.c
+zc/C programs/Structures and Functions/struct3.exe
+zc/C programs/Structures and Functions/struct4.c
+zc/C programs/Structures and Functions/struct4.exe
+zc/C programs/Structures and Functions/struct5.c
+zc/C programs/Structures and Functions/struct5.exe
+zc/C programs/Structures and Functions/struct6.c
+zc/C programs/Structures and Functions/struct6.exe
+zc/C programs/Structures and Functions/tempCodeRunnerFile.c
+zc/C programs/Structures and Functions/w.exe
+zc/C programs/Trees/bst.c
+zc/C programs/Trees/bst.exe
+zc/C programs/Trees/insert.c
+zc/C programs/Trees/insert.exe
+zc/C programs/Trees/tree.c
+zc/C programs/Trees/tree.exe
+zc/C++/and.cpp
+zc/C++/and.exe
+zc/C++/b2B.cpp
+zc/C++/b2B.exe
+zc/C++/d2b2.cpp
+zc/C++/d2b2.exe
+zc/C++/.vscode/settings.json
+zc/Extras/import time.py
+zc/Extras/time.c
+zc/Extras/time.exe
+zc/Extras/Untitled-1.cpp
+zc/Extras/Untitled-1.exe
+zc/
+.vs
+*.exe
+*.joblib
+*.pkl
+*.png
+*.jpg
+*.jpeg
+*.V2
+*.zip
+.idea
+.vscode
+*.class
