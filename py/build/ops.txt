@@ -1,0 +1,315 @@
+def __top_level__():
+    r0, r1 :: object
+    r2 :: bit
+    r3 :: str
+    r4 :: object
+    r5 :: object_ptr
+    r6 :: object_ptr[1]
+    r7 :: c_ptr
+    r8 :: native_int[1]
+    r9 :: c_ptr
+    r10 :: object
+    r11 :: dict
+    r12, r13 :: str
+    r14 :: bit
+    r15 :: list
+    r16, r17, r18, r19 :: object
+    r20, r21, r22, r23, r24 :: ptr
+    r25 :: list
+    r26, r27, r28, r29 :: object
+    r30, r31, r32, r33, r34 :: ptr
+    r35 :: list
+    r36, r37, r38, r39 :: object
+    r40, r41, r42, r43, r44 :: ptr
+    r45 :: list
+    r46, r47, r48, r49 :: ptr
+    r50 :: object
+    r51 :: str
+    r52 :: object
+    r53 :: object[1]
+    r54 :: object_ptr
+    r55 :: object
+    r56 :: dict
+    r57 :: str
+    r58 :: i32
+    r59 :: bit
+    r60 :: dict
+    r61 :: str
+    r62 :: object
+    r63 :: str
+    r64 :: object
+    r65 :: object[2]
+    r66 :: object_ptr
+    r67, r68 :: object
+    r69 :: dict
+    r70 :: str
+    r71 :: i32
+    r72 :: bit
+    r73 :: dict
+    r74 :: str
+    r75, r76, r77 :: object
+    r78 :: dict
+    r79 :: str
+    r80, r81 :: object
+    r82 :: dict
+    r83 :: str
+    r84 :: i32
+    r85 :: bit
+    r86 :: dict
+    r87 :: str
+    r88, r89 :: object
+    r90 :: str
+    r91 :: object
+    r92 :: object[1]
+    r93 :: object_ptr
+    r94 :: object
+    r95 :: dict
+    r96 :: str
+    r97, r98 :: object
+    r99 :: str
+    r100 :: object
+    r101 :: object[1]
+    r102 :: object_ptr
+    r103, r104 :: object
+    r105 :: str
+    r106 :: object
+    r107 :: object[1]
+    r108 :: object_ptr
+    r109 :: object
+    r110 :: None
+L0:
+    r0 = builtins :: module
+    r1 = load_address _Py_NoneStruct
+    r2 = r0 != r1
+    if r2 goto L3 else goto L1 :: bool
+L1:
+    r3 = 'builtins'
+    r4 = PyImport_Import(r3)
+    if is_error(r4) goto L28 (error at <module>:-1) else goto L2
+L2:
+    builtins = r4 :: module
+    dec_ref r4
+L3:
+    r5 = load_address numpy :: module
+    r6 = [r5]
+    r7 = load_address r6
+    r8 = [1]
+    r9 = load_address r8
+    r10 = (('numpy', 'numpy', 'np'),)
+    r11 = Broadcasting.globals :: static
+    r12 = 'Broadcasting.py'
+    r13 = '<module>'
+    r14 = CPyImport_ImportMany(r10, r7, r11, r12, r13, r9)
+    if not r14 goto L28 else goto L4 :: bool
+L4:
+    r15 = PyList_New(4)
+    if is_error(r15) goto L28 (error at <module>:3) else goto L5
+L5:
+    r16 = box(float, 56.0)
+    r17 = box(float, 0.0)
+    r18 = box(float, 4.4)
+    r19 = box(float, 68.0)
+    r20 = get_element_ptr r15 ob_item :: PyListObject
+    r21 = load_mem r20 :: ptr*
+    set_mem r21, r16 :: builtins.object*
+    r22 = r21 + 8
+    set_mem r22, r17 :: builtins.object*
+    r23 = r21 + 16
+    set_mem r23, r18 :: builtins.object*
+    r24 = r21 + 24
+    set_mem r24, r19 :: builtins.object*
+    r25 = PyList_New(4)
+    if is_error(r25) goto L29 (error at <module>:4) else goto L6
+L6:
+    r26 = box(float, 1.2)
+    r27 = box(float, 104.0)
+    r28 = box(float, 52.0)
+    r29 = box(float, 8.0)
+    r30 = get_element_ptr r25 ob_item :: PyListObject
+    r31 = load_mem r30 :: ptr*
+    set_mem r31, r26 :: builtins.object*
+    r32 = r31 + 8
+    set_mem r32, r27 :: builtins.object*
+    r33 = r31 + 16
+    set_mem r33, r28 :: builtins.object*
+    r34 = r31 + 24
+    set_mem r34, r29 :: builtins.object*
+    r35 = PyList_New(4)
+    if is_error(r35) goto L30 (error at <module>:5) else goto L7
+L7:
+    r36 = box(float, 1.8)
+    r37 = box(float, 135.0)
+    r38 = box(float, 99.0)
+    r39 = box(float, 0.9)
+    r40 = get_element_ptr r35 ob_item :: PyListObject
+    r41 = load_mem r40 :: ptr*
+    set_mem r41, r36 :: builtins.object*
+    r42 = r41 + 8
+    set_mem r42, r37 :: builtins.object*
+    r43 = r41 + 16
+    set_mem r43, r38 :: builtins.object*
+    r44 = r41 + 24
+    set_mem r44, r39 :: builtins.object*
+    r45 = PyList_New(3)
+    if is_error(r45) goto L31 (error at <module>:3) else goto L8
+L8:
+    r46 = get_element_ptr r45 ob_item :: PyListObject
+    r47 = load_mem r46 :: ptr*
+    set_mem r47, r15 :: builtins.object*
+    r48 = r47 + 8
+    set_mem r48, r25 :: builtins.object*
+    r49 = r47 + 16
+    set_mem r49, r35 :: builtins.object*
+    r50 = numpy :: module
+    r51 = 'array'
+    r52 = CPyObject_GetAttr(r50, r51)
+    if is_error(r52) goto L32 (error at <module>:3) else goto L9
+L9:
+    r53 = [r45]
+    r54 = load_address r53
+    r55 = _PyObject_Vectorcall(r52, r54, 1, 0)
+    dec_ref r52
+    if is_error(r55) goto L32 (error at <module>:3) else goto L10
+L10:
+    dec_ref r45
+    r56 = Broadcasting.globals :: static
+    r57 = 'A'
+    r58 = CPyDict_SetItem(r56, r57, r55)
+    dec_ref r55
+    r59 = r58 >= 0 :: signed
+    if not r59 goto L28 (error at <module>:3) else goto L11 :: bool
+L11:
+    r60 = Broadcasting.globals :: static
+    r61 = 'A'
+    r62 = CPyDict_GetItem(r60, r61)
+    if is_error(r62) goto L28 (error at <module>:8) else goto L12
+L12:
+    r63 = 'sum'
+    r64 = object 0
+    r65 = [r62, r64]
+    r66 = load_address r65
+    r67 = ('axis',)
+    r68 = PyObject_VectorcallMethod(r63, r66, 9223372036854775809, r67)
+    if is_error(r68) goto L33 (error at <module>:8) else goto L13
+L13:
+    dec_ref r62
+    r69 = Broadcasting.globals :: static
+    r70 = 'B'
+    r71 = CPyDict_SetItem(r69, r70, r68)
+    dec_ref r68
+    r72 = r71 >= 0 :: signed
+    if not r72 goto L28 (error at <module>:8) else goto L14 :: bool
+L14:
+    r73 = Broadcasting.globals :: static
+    r74 = 'A'
+    r75 = CPyDict_GetItem(r73, r74)
+    if is_error(r75) goto L28 (error at <module>:10) else goto L15
+L15:
+    r76 = object 100
+    r77 = PyNumber_Multiply(r76, r75)
+    dec_ref r75
+    if is_error(r77) goto L28 (error at <module>:10) else goto L16
+L16:
+    r78 = Broadcasting.globals :: static
+    r79 = 'B'
+    r80 = CPyDict_GetItem(r78, r79)
+    if is_error(r80) goto L34 (error at <module>:10) else goto L17
+L17:
+    r81 = PyNumber_TrueDivide(r77, r80)
+    dec_ref r77
+    dec_ref r80
+    if is_error(r81) goto L28 (error at <module>:10) else goto L18
+L18:
+    r82 = Broadcasting.globals :: static
+    r83 = 'pA'
+    r84 = CPyDict_SetItem(r82, r83, r81)
+    dec_ref r81
+    r85 = r84 >= 0 :: signed
+    if not r85 goto L28 (error at <module>:10) else goto L19 :: bool
+L19:
+    r86 = Broadcasting.globals :: static
+    r87 = 'pA'
+    r88 = CPyDict_GetItem(r86, r87)
+    if is_error(r88) goto L28 (error at <module>:12) else goto L20
+L20:
+    r89 = builtins :: module
+    r90 = 'print'
+    r91 = CPyObject_GetAttr(r89, r90)
+    if is_error(r91) goto L35 (error at <module>:12) else goto L21
+L21:
+    r92 = [r88]
+    r93 = load_address r92
+    r94 = _PyObject_Vectorcall(r91, r93, 1, 0)
+    dec_ref r91
+    if is_error(r94) goto L35 (error at <module>:12) else goto L36
+L22:
+    dec_ref r88
+    r95 = Broadcasting.globals :: static
+    r96 = 'pA'
+    r97 = CPyDict_GetItem(r95, r96)
+    if is_error(r97) goto L28 (error at <module>:14) else goto L23
+L23:
+    r98 = builtins :: module
+    r99 = 'sum'
+    r100 = CPyObject_GetAttr(r98, r99)
+    if is_error(r100) goto L37 (error at <module>:14) else goto L24
+L24:
+    r101 = [r97]
+    r102 = load_address r101
+    r103 = _PyObject_Vectorcall(r100, r102, 1, 0)
+    dec_ref r100
+    if is_error(r103) goto L37 (error at <module>:14) else goto L25
+L25:
+    dec_ref r97
+    r104 = builtins :: module
+    r105 = 'print'
+    r106 = CPyObject_GetAttr(r104, r105)
+    if is_error(r106) goto L38 (error at <module>:14) else goto L26
+L26:
+    r107 = [r103]
+    r108 = load_address r107
+    r109 = _PyObject_Vectorcall(r106, r108, 1, 0)
+    dec_ref r106
+    if is_error(r109) goto L38 (error at <module>:14) else goto L39
+L27:
+    dec_ref r103
+    return 1
+L28:
+    r110 = <error> :: None
+    return r110
+L29:
+    dec_ref r15
+    goto L28
+L30:
+    dec_ref r15
+    dec_ref r25
+    goto L28
+L31:
+    dec_ref r15
+    dec_ref r25
+    dec_ref r35
+    goto L28
+L32:
+    dec_ref r45
+    goto L28
+L33:
+    dec_ref r62
+    goto L28
+L34:
+    dec_ref r77
+    goto L28
+L35:
+    dec_ref r88
+    goto L28
+L36:
+    dec_ref r94
+    goto L22
+L37:
+    dec_ref r97
+    goto L28
+L38:
+    dec_ref r103
+    goto L28
+L39:
+    dec_ref r109
+    goto L27

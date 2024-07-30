@@ -1,0 +1,14 @@
+import numpy as np
+size = int(input("size"))
+
+x = np.array([])
+for i in range(size):
+  np.append(x,int(input("enter element")))
+    
+
+
+mean = np.mean(x)
+median = np.median(x)
+
+print(mean)
+print(median)
