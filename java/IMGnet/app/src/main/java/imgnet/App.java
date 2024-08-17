@@ -66,7 +66,7 @@ public class App {
     return maxIndex;
   }
 
-  private void createAndShowGUI() {
+  private void Show() {
     JFrame frame = new JFrame("Image Classification");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setSize(800, 600);
@@ -99,6 +99,6 @@ public class App {
   }
 
   public static void main(String[] args) {
-    SwingUtilities.invokeLater(() -> new App().createAndShowGUI());
+    SwingUtilities.invokeLater(() -> new App().Show());
   }
 }
