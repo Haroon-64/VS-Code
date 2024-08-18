@@ -1,30 +1,56 @@
-#include <cuda.h>
-#include "cuda_runtime.h"   // for >2010 / cuda>5.5
-#include<iostream>
+#include <iostream>
+#include <cuda_runtime.h>
 
-using namespace std;
+#define N 10000000
 
-__global__ void addInt(int *a,int *b){
-        a[0] += b[0];
-        }
+__global__ void vector_add(float *out, float *a, float *b, int n) {
+  for(int i = 0; i < n; i++) {
+    out[i] = a[i] + b[i];
+  }
+}
 
+int main() {
+  float *a, *b, *out;
+  float *d_a, *d_b, *d_out;
 
-int main()
-{
-    int a =5, b=9;
-    int *pa, *pb;   //device pointers
-    cudaMalloc(&pa,sizeof(int));  // for actual thing wrap with if != cudaSuccess
-    cudaMalloc(&pb,sizeof(int));
-    
-    cudaMemcpy(pa, &a, sizeof(int), cudaMemcpyHostToDevice);  // dest, point to source, size, type
-    cudaMemcpy(pb, &b, sizeof(int), cudaMemcpyHostToDevice);
+  // Allocate host memory
+  a   = new float[N];
+  b   = new float[N];
+  out = new float[N];
 
-    addInt<<<1,1>>>(pa, pb);    // <<<blocks, threadsPerBlock>>>
-    cudaDeviceSynchronize();  //wait for gpu
-    cudaMemcpy(&a ,pa ,sizeof(int) , cudaMemcpyDeviceToHost);
+  // Initialize host arrays
+  for(int i = 0; i < N; i++) {
+    a[i] = 1.0f;
+    b[i] = 2.0f;
+  }
 
-    cout<<a;
-    cudaFree(pa);
-    cudaFree(pb);
-    return 0;
+  // Allocate device memory
+  cudaMalloc((void**)&d_a, sizeof(float) * N);
+  cudaMalloc((void**)&d_b, sizeof(float) * N);
+  cudaMalloc((void**)&d_out, sizeof(float) * N);
+
+  // Transfer data from host to device memory
+  cudaMemcpy(d_a, a, sizeof(float) * N, cudaMemcpyHostToDevice);
+  cudaMemcpy(d_b, b, sizeof(float) * N, cudaMemcpyHostToDevice);
+
+  // Launch the kernel on the GPU
+  vector_add<<<1,256>>>(d_out, d_a, d_b, N);
+
+  // Transfer the result from device to host memory
+  cudaMemcpy(out, d_out, sizeof(float) * N, cudaMemcpyDeviceToHost);
+
+  // Print the first 10 elements of the result
+  for(int i = 0; i < 10; i++) {
+    std::cout << "out[" << i << "] = " << out[i] << std::endl;
+  }
+
+  // Cleanup
+  cudaFree(d_a);
+  cudaFree(d_b);
+  cudaFree(d_out);
+  delete[] a;
+  delete[] b;
+  delete[] out;
+
+  return 0;
 }
