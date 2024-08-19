@@ -22,7 +22,6 @@ public class EvList {
     Button loginButton = new Button("Login");
     loginButton.setBounds(150, 150, 80, 30);
     loginButton.addActionListener(new ActionListener() {
-      @Override
       public void actionPerformed(ActionEvent e) {
         String username = userText.getText();
         String password = passText.getText();
