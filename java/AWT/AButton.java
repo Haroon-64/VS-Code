@@ -6,7 +6,7 @@ import java.awt.Component;
 /*<applet code=AButton.class width=100 height=100> 
   </applet> */ 
  
-public class AButton  implements ActionListener { 
+public class AButton extends Applet implements ActionListener { 
   public void init() { 
     // STEP 1: Compose the GUI 
     Button beepButton = new Button("Beep");  
@@ -21,9 +21,5 @@ public void actionPerformed(ActionEvent event) {
     Component c = (Component)event.getSource(); 
    c.getToolkit().beep(); 
   } 
-
-public static void main(String[] args) {
-    
-}
 
 } 
