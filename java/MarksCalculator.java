@@ -65,8 +65,7 @@ public class MarksCalculator {
 
             double totalMarks = 0;
             double obtainedMarks = 0;
-            double percentage = (obtainedMarks / totalMarks) * 100;
-            resultLabel.setText("Percentage = " + percentage);
+            
             try {
               for (String markStr : marksStr) {
                 if (!markStr.isEmpty()) {
@@ -75,6 +74,8 @@ public class MarksCalculator {
                   totalMarks += 100;
                 }
               }
+            double percentage = (obtainedMarks / totalMarks) * 100;
+            resultLabel.setText("Percentage = " + percentage);
             } catch (NumberFormatException E) {
               resultLabel.setText("invalid values");
             }  
