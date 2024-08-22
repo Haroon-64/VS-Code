@@ -9,7 +9,7 @@ public class CanvasExample
     f.setSize(400, 400);  
     f.setVisible(true);  
   }  
-  public static void main(String args[])  
+  public static void main(String args[])  X
   {  
     new CanvasExample();  
   }  
