@@ -1,3 +1,4 @@
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -5,12 +6,11 @@ import javax.swing.JTextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
 public class MarksCalculator {
 
   public static void main(String[] args) {
     JFrame frame = new JFrame("Marks Calculator");
-    frame.setSize(350, 300);
+    frame.setSize(450, 400);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     JLabel label1 = new JLabel("Subject 1:");
@@ -50,36 +50,36 @@ public class MarksCalculator {
     frame.add(calculateButton);
 
     JLabel resultLabel = new JLabel("");
-    resultLabel.setBounds(10, 160, 310, 25);
+    resultLabel.setBounds(10, 200, 310, 25);
     frame.add(resultLabel);
 
-    calculateButton.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent e) {
-        String[] marksStr = {
-          subject1Field.getText(),
-          subject2Field.getText(),
-          subject3Field.getText(),
-          subject4Field.getText()
-        };
+    calculateButton.addActionListener(
+        new ActionListener() {
+          public void actionPerformed(ActionEvent e) {
+            String[] marksStr = {
+                subject1Field.getText(),
+                subject2Field.getText(),
+                subject3Field.getText(),
+                subject4Field.getText()
+            };
 
-        double totalMarks = 0;
-        double obtainedMarks = 0;
-        try{
-        for (String markStr : marksStr) {
-          if (!markStr.isEmpty()) {
-            double mark = Double.parseDouble(markStr);
-            obtainedMarks += mark;
-            totalMarks += 100; 
+            double totalMarks = 0;
+            double obtainedMarks = 0;
+            double percentage = (obtainedMarks / totalMarks) * 100;
+            resultLabel.setText("Percentage = " + percentage);
+            try {
+              for (String markStr : marksStr) {
+                if (!markStr.isEmpty()) {
+                  double mark = Double.parseDouble(markStr);
+                  obtainedMarks += mark;
+                  totalMarks += 100;
+                }
+              }
+            } catch (NumberFormatException E) {
+              resultLabel.setText("invalid values");
+            }  
           }
-        }
-      }
-      catch (NumberFormatException E){
-        resultLabel.setText("invalid values");
-      }
-        double percentage = (obtainedMarks / totalMarks) * 100;
-        resultLabel.setText("Percentage = " + percentage);
-      }
-    });
+        });
 
     frame.setVisible(true);
   }
