@@ -34,7 +34,7 @@ int main() {
   cudaMemcpy(d_b, b, sizeof(float) * N, cudaMemcpyHostToDevice);
 
   // Launch the kernel on the GPU
-  vector_add<<<1,256>>>(d_out, d_a, d_b, N);
+  vector_add<<<1,256>>>(d_out, d_a, d_b, N);   // laucnh with xblocks, 256 threads
 
   // Transfer the result from device to host memory
   cudaMemcpy(out, d_out, sizeof(float) * N, cudaMemcpyDeviceToHost);
