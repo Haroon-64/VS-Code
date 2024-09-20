@@ -14,7 +14,7 @@
 *InternzValley*  
 *February ’24 - April ‘24*  
 
-- **Successfully Developed** machine learning models, Preprocessed data, and used data analysis to gain insights:
+- **Successfully Developed and Improved** machine learning models, Preprocessed data, and used data analysis to gain insights:
 
 1. *Heart Disease Classifciation*
 - Enhanced model accuracy from 80% to 85%
