@@ -14,7 +14,7 @@
 *InternzValley*  
 *February ’24 - April ‘24*  
 
-- **Implemeted** projects involving machine learning model development, data preprocessing, and data analysis.
+- **Successfully Developed** machine learning models, Preprocessed data, and used data analysis to gain insights:
 
 1. *Heart Disease Classifciation*
 - Enhanced model accuracy from 80% to 85%
