@@ -4,11 +4,11 @@
 
 ## Experience
 
-**Machine Learning Researcher**  
+<!-- **Machine Learning Researcher**  
 *IUST Awantipora*  
 *May ’24 - Present*  
 
-- **Developing** a machine learning model for the RSNA 2024 Lumbar Spine Degenerative Classification, establishing a baseline predictive model as a foundation for future enhancements.
+- **Developing** a machine learning model for the RSNA 2024 Lumbar Spine Degenerative Classification, establishing a baseline predictive model as a foundation for future enhancements. -->
 
 **Machine Learning Intern**  
 *InternzValley*  
@@ -17,9 +17,7 @@
 - **Implemeted** projects involving machine learning model development, data preprocessing, and data analysis.
 
 1. *Heart Disease Classifciation*
-
-- Enhanced Model Performance:
-- Accuracy improved from 80% to 85%
+- Enhanced model accuracy from 80% to 85%
 - Precision increased from 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease)
 - Recall boosted from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease)
 
@@ -27,7 +25,6 @@
 - Found correlation between ticket class and survival: 63% of 1st class, 48% of 2nd class, and 25% of 3rd class passengers survived
 - Gender and survival rates: 73% of females and 20% of males survived
 - Age group analysis: Higher survival for ages 0-10, lowest for ages 60-80
-- Observed that smaller family sizes (below 4) had higher survival rates
 
 
 ## Skills
