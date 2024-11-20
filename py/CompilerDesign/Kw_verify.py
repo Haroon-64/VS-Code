@@ -1,4 +1,6 @@
-kw = {"printf","scanf","if","else","do","while"}
+import keyword
+
+kw = keyword.kwlist
 while True:
     text = input("enter keyword\n")
 
@@ -6,5 +8,3 @@ while True:
         print("ok")
     else:
         print("keyword not found")
-
-
