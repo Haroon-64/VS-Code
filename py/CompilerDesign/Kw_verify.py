@@ -1,10 +1,18 @@
-import keyword
+from keyword import kwlist
 
-kw = keyword.kwlist
-while True:
+def verify_keyowrd(string:str):
     text = input("enter keyword\n")
 
-    if text in kw:
-        print("ok")
+    if text in kwlist:
+        return 1
     else:
-        print("keyword not found")
+        return 0
+
+
+if __name__ == "__main__":
+    while True:
+        text = input("enter keyword")
+        if verify_keyowrd(text) == 1:
+            print("valid\n")
+        else:
+            print("invalid")
