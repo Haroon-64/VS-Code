@@ -2,7 +2,7 @@
 
 ## Machine Learning Enthusiast | Skilled in Data Analysis, Model Optimization | Interested in Ethical and Explainable AI | Seeking Internship/Job
 
-- [Mail](haroonn475@gmail.com) | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
+- [Mail](haroon.naseer@iust.ac.in) | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
 
 ## Experience
 
