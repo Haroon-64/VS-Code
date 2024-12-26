@@ -50,6 +50,7 @@
 - [Google Data Analytics](https://coursera.org/share/94ad3054cc3bbd925570e18bd2e6026b)
 - [Machine Learning Specialization](https://coursera.org/share/1b5b634bb9867488047891c10e04215f)
 - [Deep Learning Specialization](https://coursera.org/share/5b4caf3f4e7b41516a276f2381ac57cf)
+- [Explainable AI Specialization](https://coursera.org/share/f0c56ee89e4e5d39f6ef2ad5c88a3ed7)
 
 <!-- **Machine Learning Researcher**  
 *IUST Awantipora*  
