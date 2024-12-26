@@ -35,15 +35,19 @@
 
 1. [**Animal Classification**](https://github.com/Haroon-64/Animal_detection)  
    - **Achieved 99.8% accuracy** using transfer learning using MobileNet v2 to classify images based on animal species.
-   - **Enhancing** the project by applying advanced data processing techniques and balancing methods to improve model performance and reduce overfitting.
+   - **Tools Used** Python, Tensorflow, PyQt5, and Flutter with Tflite for Android UI
+
+2. [**Image Classification Trainer UI**](https://github.com/Haroon-64/Image_Classifier_Trainer)
+   - **Developed Image Classification App** Built a PySide app for model selection, training, inference, and Visualization using Saliency Maps and Model Graph.
+   - **Streamlined Model Workflows** by allowing for simple and quick training workflow for image classification
+   --
+   - **Tools Used** Pyside6, Python, Pytorch, Torchviz, Captum
 
 ## Education
 
 **B.Tech in Computer Science and Engineering**  
 *IUST Awantipora*  
 *Autumn 2021 - 2025*  
-
-- Currently pursuing a degree in Computer Science and Engineering.
 
 ## Courses
 
