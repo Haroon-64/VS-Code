@@ -40,7 +40,6 @@
 2. [**Image Classification Trainer UI**](https://github.com/Haroon-64/Image_Classifier_Trainer)
    - **Developed Image Classification App** Built a PySide app for model selection, training, inference, and Visualization using Saliency Maps and Model Graph.
    - **Streamlined Model Workflows** by allowing for simple and quick training workflow for image classification
-   --
    - **Tools Used** Pyside6, Python, Pytorch, Torchviz, Captum
 
 ## Education
