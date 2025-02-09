@@ -1,33 +1,26 @@
-def generatekey(key):
-    fullkey = key
-    while len(fullkey) < len(msg):
-        fullkey += key
-    fullkey = fullkey[:len(msg)]
+def generate_key(msg, key):
+    key = (key * (len(msg) // len(key) + 1))[:len(msg)]
     
-    table = []
-    for i in range(26):
-        table.append([])
-        for j in range(26):
-            table[i].append(chr((i+j)%26+65))
-
-    return table,fullkey
-
-def encrypt(msg,key):
-    table, fullkey = generatekey(key)
-
-    cipher = ""
-    for i in range(len(msg)):
-        cipher += table[ord(msg[i])-65][ord(fullkey[i])-65]
-    return cipher
-
-def decrypt(msg,key):
-        
-        table = generatekey(key)
+    table = [[chr((i + j) % 26 + 65) for j in range(26)] for i in range(26)]
     
-        cipher = ""
-        for i in range(len(msg)):
-            for j in range(26):
-                if table[ord(fullkey[i])-65][j] == msg[i]:
-                    cipher += chr(j+65)
-        return cipher
+    return table, key.upper()
 
+def encrypt(msg, key):
+    table, key = generate_key(msg, key)
+    
+    return ''.join(table[ord(m) - 65][ord(k) - 65] for m, k in zip(msg.upper(), key))
+
+def decrypt(msg, key):
+    table, key = generate_key(msg, key)
+    
+    return ''.join(chr(table[ord(k) - 65].index(m) + 65) for m, k in zip(msg.upper(), key))
+
+plaintext = input("Enter plaintext: ").upper()
+plaintext = ''.join(filter(str.isalpha, plaintext)).replace('J', 'I')
+keyword = input("Enter keyword: ").upper()
+
+ciphertext = encrypt(plaintext, keyword)
+print("Ciphertext:", ciphertext)
+
+decrypted_text = decrypt(ciphertext, keyword)
+print("Decrypted text:", decrypted_text)
