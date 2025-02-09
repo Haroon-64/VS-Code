@@ -103,3 +103,12 @@ for bigram in bigrams2:
     decrypted_text += decrypt(table, bigram)
 
 print("Decrypted text:", decrypted_text)
+
+clean_text= ""
+for i in range(len(decrypted_text)):
+    if decrypted_text[i] == "x" and i > 0:
+        clean_text += decrypted_text[i - 1]  # Replace 'x' with the previous letter
+    else:
+        clean_text += decrypted_text[i]
+
+print("Decrypted text without x:", clean_text)
