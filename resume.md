@@ -14,7 +14,7 @@ Machine Learning Engineer with experience in building and optimizing ML models, 
 - Precision increased from 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease)
 - Recall boosted from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease)
 
-2. **Titanic data Analysis**
+2.**Titanic data Analysis**
 
 - Found correlation between ticket class and survival: 63% of 1st class, 48% of 2nd class, and 25% of 3rd class passengers survived
 - Gender and survival rates: 73% of females and 20% of males survived
@@ -33,16 +33,22 @@ Machine Learning Engineer with experience in building and optimizing ML models, 
 
 - **Achieved 99.8% accuracy** using transfer learning with MobileNet v2 to classify images based on animal species.
 
-2. [**Image Classification Trainer UI**](https://github.com/Haroon-64/Image_Classifier_Trainer) |  Pyside6, Python, Pytorch, Torchviz, Captum
+2.[**Image Classification Trainer UI**](https://github.com/Haroon-64/Image_Classifier_Trainer) |  Pyside6, Python, Pytorch, Torchviz, Captum
 
 - **Developed Image Classification App**: Built a PySide app for model selection, training, inference, and Visualization using Saliency Maps and Model Graph.
 - **Streamlined Model Workflows** by allowing for simple and quick training workflow for image classification
+
+3.**Hackathon Winner – PriceWise** | Python, Streamlit, CLIP | [demo](https://)
+
+- Built a unified product comparison tool using Python and Streamlit during AndinoHack2025, July 2025, organized by [AndinoLabs](https://www.linkedin.com/company/andinolabs/)
+- Integrated OpenAI CLIP for image-based product search; enabled users to upload photos to retrieve similar listings
+- Implemented wait-time estimation logic to advise users on better purchase periods using historical pricing data
 
 ## Education
 
 **B.Tech in Computer Science and Engineering**  
 *IUST Awantipora J&K*  \hfill  \textit{Autumn 2021 - 2025}
- 
+
 **Relevent Courses** :
 OOPS, Software Engineering, DSA, Operating Systems, DBMS, Computer Networks, Java Programming, Computer Architecture and Organisation, Artificial Intelligence, Soft Computing, Compiler Design, Applied Linear Algebra, Digital Image Processing, and Cryptography.
 
