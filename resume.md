@@ -10,15 +10,13 @@ Machine Learning Engineer with experience in building and optimizing ML models, 
 
 1. **Heart Disease Classifciation**
 
-- Enhanced model accuracy from 80% to 85%
-- Precision increased from 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease)
-- Recall boosted from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease)
+    - Enhanced model accuracy from 80% to 85%, Precision 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease)
+    - Recall boosted from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease)
 
-2.**Titanic data Analysis**
+2. **Titanic data Analysis**
 
-- Found correlation between ticket class and survival: 63% of 1st class, 48% of 2nd class, and 25% of 3rd class passengers survived
-- Gender and survival rates: 73% of females and 20% of males survived
-- Age group analysis: Higher survival for ages 0-10, lowest for ages 60-80
+    - Found correlation between ticket class and survival: 63% of 1st class, 48% of 2nd class, and 25% of 3rd class passengers survived
+    - Gender and survival rates: 73% of females and 20% of males survived and age group analysis: Higher survival for ages 0-10, lowest for ages 60-80
 
 ## Skills
 
@@ -31,18 +29,20 @@ Machine Learning Engineer with experience in building and optimizing ML models, 
 
 1. [**Animal Classification**](https://github.com/Haroon-64/Animal_detection) | Python, Tensorflow, PyQt5, and Flutter with Tflite for Android UI
 
-- **Achieved 99.8% accuracy** using transfer learning with MobileNet v2 to classify images based on animal species.
+    - **Achieved 99.8% accuracy** using transfer learning with MobileNet v2 to classify images based on animal species.
 
-2.[**Image Classification Trainer UI**](https://github.com/Haroon-64/Image_Classifier_Trainer) |  Pyside6, Python, Pytorch, Torchviz, Captum
+2. [**PyTorchForge**](https://github.com/Haroon-64/PytorchForge) | Python, FastAPI, Pydantic, Jinja2, Tauri, React
 
-- **Developed Image Classification App**: Built a PySide app for model selection, training, inference, and Visualization using Saliency Maps and Model Graph.
-- **Streamlined Model Workflows** by allowing for simple and quick training workflow for image classification
+    - Built a low-code platform for creating Deep Learning pipelines using a visual interface with minimal coding.
+    - Sped-up and reduced boilerplate code for different DL tasks such as Image, Text, Audio with classification, segmentation, generation etc.
 
-3.**Hackathon Winner – PriceWise** | Python, Streamlit, CLIP | [demo](https://)
+## Acheivements
 
-- Built a unified product comparison tool using Python and Streamlit during AndinoHack2025, July 2025, organized by [AndinoLabs](https://www.linkedin.com/company/andinolabs/)
-- Integrated OpenAI CLIP for image-based product search; enabled users to upload photos to retrieve similar listings
-- Implemented wait-time estimation logic to advise users on better purchase periods using historical pricing data
+- **Hackathon Winner – PriceWise** | Python, Streamlit, CLIP | [**demo**](https://huggingface.co/spaces/kouhaisamma/haroon)
+
+  - - Built a unified product comparison tool using Python and Streamlit during AndinoHack2025, July 2025, organized by [AndinoLabs](https://www.linkedin.com/company/andinolabs/)
+  - - Integrated OpenAI CLIP for image-based product search; enabled users to upload photos to retrieve similar listings
+  - - Implemented wait-time estimation logic to advise users on better purchase periods using historical pricing data
 
 ## Education
 
