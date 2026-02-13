@@ -47,19 +47,19 @@ February 2024 – April 2024
 
 ## Projects
 
-### Animal Classification
-
-Python, TensorFlow, PyQt5, Flutter, TFLite
-
-* Achieved 99.8% accuracy using transfer learning with MobileNetV2.
-* Deployed model to Android using TFLite with a custom Flutter UI.
-
 ### PyTorchForge
 
 Python, FastAPI, Pydantic, Jinja2, Tauri, React
 
 * Built a low-code platform for constructing deep learning pipelines.
 * Reduced boilerplate across image, text, and audio workflows including classification and generation tasks.
+
+### Animal Classification
+
+Python, TensorFlow, PyQt5, Flutter, TFLite
+
+* Achieved 99.8% accuracy using transfer learning with MobileNetV2.
+* Deployed model to Android using TFLite with a custom Flutter UI.
 
 ---
 
