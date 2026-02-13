@@ -1,6 +1,6 @@
 # Haroon Naseer
 
-[haroon.naseer@iust.ac.in](mailto:haroon.naseer@iust.ac.in) | LinkedIn | GitHub | Kaggle
+[haroon.naseer@iust.ac.in](mailto:haroon.naseer@iust.ac.in) | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
 
 Applied Machine Learning and Backend Engineer with experience in building ML systems and production-grade backend services. Experienced in Python, FastAPI, distributed task queues, and cloud-integrated microservices. Strong foundation in ML algorithms, system design, and scalable architectures.
 
