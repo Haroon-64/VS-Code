@@ -16,7 +16,7 @@ September 2025 – March 2025
 **Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
 
 * Built backend services using FastAPI following MVC architecture and SDLC practices.
-* Improved and grounded LLM outputs using Retrieval-Augmented Generation (RAG) pipelines.
+* Improved response reliability by grounding LLM outputs using a BM25-based RAG retrieval sevice.
 * Worked primarily on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
 * Assisted in database schema design and setup.
 * Designed microservices with asynchronous task processing using Celery and Amazon SQS.
