@@ -1,60 +1,102 @@
 # Haroon Naseer
 
-<haroon.naseer@iust.ac.in> | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
+[haroon.naseer@iust.ac.in](mailto:haroon.naseer@iust.ac.in) | LinkedIn | GitHub | Kaggle
 
-Machine Learning Engineer with experience in building and optimizing ML models, developing training UIs, and analyzing real-world datasets. Proficient in Python, PyTorch, and Scikit-learn. Skilled in creating interactive tools and deploying models to mobile using TFLite. Strong foundation in ML algorithms, and passionate about Explainable and Ethical AI.
+Applied Machine Learning and Backend Engineer with experience in building ML systems and production-grade backend services. Experienced in Python, FastAPI, distributed task queues, and cloud-integrated microservices. Strong foundation in ML algorithms, system design, and scalable architectures.
+
+---
 
 ## Experience
 
-**Machine Learning Intern** | Scikit-learn, numpy, pandas at  *InternzValley*   - *February ’24 - April ‘24*  with projects:
+### Software Intern
 
-1. **Heart Disease Classifciation**
+**AndinoLabs (Andino Global Tech Private Limited)** — Bengaluru, Karnataka, India
+September 2025 – March 2025
 
-    - Enhanced model accuracy from 80% to 85%, Precision 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease)
-    - Recall boosted from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease)
+**Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
 
-2. **Titanic data Analysis**
+* Built backend services using FastAPI following MVC architecture and SDLC practices.
+* Improved and grounded LLM outputs using Retrieval-Augmented Generation (RAG) pipelines.
+* Worked primarily on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
+* Assisted in database schema design and setup.
+* Designed microservices with asynchronous task processing using Celery and Amazon SQS.
+* Migrated an existing Python application to use uv for dependency management and execution.
 
-    - Found correlation between ticket class and survival: 63% of 1st class, 48% of 2nd class, and 25% of 3rd class passengers survived
-    - Gender and survival rates: 73% of females and 20% of males survived and age group analysis: Higher survival for ages 0-10, lowest for ages 60-80
+---
 
-## Skills
+### Machine Learning Intern
 
-- **Languages:** Python, C++, Java
-- **Libraries:** Numpy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch
-- **Tools:** Jupyter Notebooks, Git, CLI
-- **Interest:** Explainable AI, Ethical AI, AGI Research
+**InternzValley**
+February 2024 – April 2024
+
+**Tech Stack:** Scikit-learn, NumPy, Pandas
+
+**Heart Disease Classification**
+
+* Improved accuracy from 80% to 85%.
+* Increased precision from 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease).
+* Increased recall from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease).
+
+**Titanic Data Analysis**
+
+* Identified survival correlation with ticket class: 63% (1st), 48% (2nd), 25% (3rd).
+* Analyzed gender survival rates: 73% (female), 20% (male).
+* Identified higher survival in age group 0–10 and lowest in 60–80.
+
+---
 
 ## Projects
 
-1. [**Animal Classification**](https://github.com/Haroon-64/Animal_detection) | Python, Tensorflow, PyQt5, and Flutter with Tflite for Android UI
+### Animal Classification
 
-    - **Achieved 99.8% accuracy** using transfer learning with MobileNet v2 to classify images based on animal species.
+Python, TensorFlow, PyQt5, Flutter, TFLite
 
-2. [**PyTorchForge**](https://github.com/Haroon-64/PytorchForge) | Python, FastAPI, Pydantic, Jinja2, Tauri, React
+* Achieved 99.8% accuracy using transfer learning with MobileNetV2.
+* Deployed model to Android using TFLite with a custom Flutter UI.
 
-    - Built a low-code platform for creating Deep Learning pipelines using a visual interface with minimal coding.
-    - Sped-up and reduced boilerplate code for different DL tasks such as Image, Text, Audio with classification, segmentation, generation etc.
+### PyTorchForge
 
-## Acheivements
+Python, FastAPI, Pydantic, Jinja2, Tauri, React
 
-- **Hackathon Winner – PriceWise** | Python, Streamlit, CLIP | [**demo**](https://huggingface.co/spaces/kouhaisamma/haroon)
+* Built a low-code platform for constructing deep learning pipelines.
+* Reduced boilerplate across image, text, and audio workflows including classification and generation tasks.
 
-  - - Built a unified product comparison tool using Python and Streamlit during AndinoHack2025, July 2025, organized by [AndinoLabs](https://www.linkedin.com/company/andinolabs/)
-  - - Integrated OpenAI CLIP for image-based product search; enabled users to upload photos to retrieve similar listings
-  - - Implemented wait-time estimation logic to advise users on better purchase periods using historical pricing data
+---
+
+## Skills
+
+**Languages:** Python, C++, Java
+**Backend & Systems:** FastAPI, Microservices, Celery, SQLAlchemy, PostgreSQL, Amazon SQS, Amazon S3
+**ML & Data:** NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch
+**Tools:** Git, Jupyter, CLI
+**Concepts:** SDLC, Agile, MVC, RAG
+
+---
+
+## Achievements
+
+**Hackathon Winner – PriceWise**
+AndinoHack 2025 – Organized by AndinoLabs
+
+* Built a unified product comparison tool using Python and Streamlit.
+* Integrated OpenAI CLIP for image-based product search.
+* Implemented historical price analysis with wait-time estimation logic.
+
+---
 
 ## Education
 
-**B.Tech in Computer Science and Engineering**  
-*IUST Awantipora J&K*  \hfill  \textit{Autumn 2021 - 2025}
+**B.Tech in Computer Science and Engineering**
+IUST Awantipora, J&K (2021 – 2025)
 
-**Relevent Courses** :
-OOPS, Software Engineering, DSA, Operating Systems, DBMS, Computer Networks, Java Programming, Computer Architecture and Organisation, Artificial Intelligence, Soft Computing, Compiler Design, Applied Linear Algebra, Digital Image Processing, and Cryptography.
+Relevant Coursework:
+OOPS, Software Engineering, DSA, Operating Systems, DBMS, Computer Networks, AI, Soft Computing, Compiler Design, Linear Algebra, Digital Image Processing, Cryptography
+
+---
 
 ## Certifications
 
-[Google Data Analytics](https://coursera.org/share/94ad3054cc3bbd925570e18bd2e6026b) |
-[Machine Learning Specialization](https://coursera.org/share/1b5b634bb9867488047891c10e04215f) | 
-[Deep Learning Specialization](https://coursera.org/share/5b4caf3f4e7b41516a276f2381ac57cf) |  
-[Explainable AI Specialization](https://coursera.org/share/f0c56ee89e4e5d39f6ef2ad5c88a3ed7)
+* Google Data Analytics
+* Machine Learning Specialization
+* Deep Learning Specialization
+* Explainable AI Specialization
