@@ -10,7 +10,7 @@ Applied Machine Learning and Backend Engineer with experience in building ML sys
 
 ### Software Intern
 
-**AndinoLabs (Andino Global Tech Private Limited)** — Bengaluru, Karnataka, India
+**AndinoLabs (Andino Global Tech Private Limited)**                                        Bengaluru, Karnataka, India
 September 2025 – March 2025
 
 **Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
