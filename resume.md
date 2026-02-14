@@ -10,8 +10,8 @@ Applied Machine Learning and Backend Engineer with experience in building ML sys
 
 ### Software Intern
 
-**AndinoLabs (Andino Global Tech Private Limited)**                                        Bengaluru, Karnataka, India
-September 2025 – March 2025
+**AndinoLabs (Andino Global Tech Private Limited)**  **-**  Bengaluru, Karnataka **-**
+September 2025 - March 2026
 
 **Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Redis, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
 
@@ -20,14 +20,14 @@ September 2025 – March 2025
 * Worked on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
 * Assisted in database schema design and setup.
 * Designed microservices with asynchronous task processing using Celery,Redis and Amazon SQS.
-* Migrated an existing Python application to use uv for dependency management and execution.
+* Migrated an existing Python application to use uv for dependency management.
 
 ---
 
 ### Machine Learning Intern
 
 **InternzValley**
-February 2024 – April 2024
+February 2024 - April 2024
 
 * Built and evaluated ML models using Scikit-learn, NumPy, and Pandas.
 * Improved heart disease classification accuracy from 80% to 85% with measurable gains in precision and recall.
@@ -43,6 +43,7 @@ Python, FastAPI, Pydantic, Jinja2, Tauri, React, GitHub Actions
 
 * Built a low-code platform for constructing deep learning pipelines.
 * Implemented CI/CD with GitHub Actions to auto-build artifacts and publish versioned releases on feature updates.
+* Assisted with UI and Sidecar Integration using Tauri and React.
 
 ### Animal Classification
 
@@ -65,7 +66,7 @@ Python, TensorFlow, PyQt5, Flutter, TFLite
 
 ## Achievements
 
-**Hackathon Winner – PriceWise**
+**Hackathon Winner - PriceWise**
 AndinoHack 2025 – Organized by AndinoLabs
 * Built a unified product comparison tool using Python and Streamlit.
 * Integrated OpenAI CLIP for image-based product search.
