@@ -27,7 +27,7 @@ September 2025 – March 2025
 ### Machine Learning Intern
 
 **InternzValley**
-February 2024 – April 2024
+February 2024 - April 2024
 
 * Built and evaluated ML models using Scikit-learn, NumPy, and Pandas.
 * Improved heart disease classification accuracy from 80% to 85% with measurable gains in precision and recall.
@@ -66,7 +66,7 @@ Python, TensorFlow, PyQt5, Flutter, TFLite
 ## Achievements
 
 **Hackathon Winner - PriceWise**
-AndinoHack 2025 – Organized by AndinoLabs
+AndinoHack 2025 - Organized by AndinoLabs
 
 * Built a unified product comparison tool using Python and Streamlit.
 * Integrated OpenAI CLIP for image-based product search.
@@ -76,7 +76,7 @@ AndinoHack 2025 – Organized by AndinoLabs
 ## Education
 
 **B.Tech in Computer Science and Engineering**
-IUST Awantipora, J&K (2021 – 2025)
+IUST Awantipora, J&K (2021 - 2025)
 
 Relevant Coursework:
 OOPS, Software Engineering, DSA, Operating Systems, DBMS, Computer Networks, AI, Soft Computing, Compiler Design, Linear Algebra, Digital Image Processing, Cryptography
