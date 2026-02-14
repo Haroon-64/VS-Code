@@ -10,16 +10,16 @@ Applied Machine Learning and Backend Engineer with experience in building ML sys
 
 ### Software Intern
 
-**AndinoLabs (Andino Global Tech Private Limited)**  - Bengaluru, Karnataka  -
-September 2025 – March 2026
+**AndinoLabs (Andino Global Tech Private Limited)**                                        Bengaluru, Karnataka, India
+September 2025 – March 2025
 
-**Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
+**Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Redis, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
 
 * Built backend services using FastAPI following MVC architecture and SDLC practices.
 * Improved response reliability by grounding LLM outputs using a BM25-based RAG retrieval sevice.
 * Worked on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
 * Assisted in database schema design and setup.
-* Designed microservices with asynchronous task processing using Celery and Amazon SQS.
+* Designed microservices with asynchronous task processing using Celery,Redis and Amazon SQS.
 * Migrated an existing Python application to use uv for dependency management and execution.
 
 ---
@@ -27,7 +27,7 @@ September 2025 – March 2026
 ### Machine Learning Intern
 
 **InternzValley**
-February 2024 - April 2024
+February 2024 – April 2024
 
 * Built and evaluated ML models using Scikit-learn, NumPy, and Pandas.
 * Improved heart disease classification accuracy from 80% to 85% with measurable gains in precision and recall.
@@ -37,12 +37,12 @@ February 2024 - April 2024
 
 ## Projects
 
-### PyTorchForge
+### PyTorchForge - IUST Awantipora
 
-Python, FastAPI, Pydantic, Jinja2, Tauri, React
+Python, FastAPI, Pydantic, Jinja2, Tauri, React, GitHub Actions
 
 * Built a low-code platform for constructing deep learning pipelines.
-* Reduced boilerplate across image, text, and audio workflows including classification and generation tasks.
+* Implemented CI/CD with GitHub Actions to auto-build artifacts and publish versioned releases on feature updates.
 
 ### Animal Classification
 
@@ -65,9 +65,8 @@ Python, TensorFlow, PyQt5, Flutter, TFLite
 
 ## Achievements
 
-**Hackathon Winner - PriceWise**
-AndinoHack 2025 - Organized by AndinoLabs
-
+**Hackathon Winner – PriceWise**
+AndinoHack 2025 – Organized by AndinoLabs
 * Built a unified product comparison tool using Python and Streamlit.
 * Integrated OpenAI CLIP for image-based product search.
 
@@ -76,7 +75,7 @@ AndinoHack 2025 - Organized by AndinoLabs
 ## Education
 
 **B.Tech in Computer Science and Engineering**
-IUST Awantipora, J&K (2021 - 2025)
+IUST Awantipora, J&K (2021 – 2025)
 
 Relevant Coursework:
 OOPS, Software Engineering, DSA, Operating Systems, DBMS, Computer Networks, AI, Soft Computing, Compiler Design, Linear Algebra, Digital Image Processing, Cryptography
