@@ -17,7 +17,7 @@ September 2025 – March 2025
 
 * Built backend services using FastAPI following MVC architecture and SDLC practices.
 * Improved response reliability by grounding LLM outputs using a BM25-based RAG retrieval sevice.
-* Worked primarily on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
+* Worked on data handling, query optimization, and ORM-based database interactions using PostgreSQL and SQLAlchemy.
 * Assisted in database schema design and setup.
 * Designed microservices with asynchronous task processing using Celery and Amazon SQS.
 * Migrated an existing Python application to use uv for dependency management and execution.
@@ -29,19 +29,9 @@ September 2025 – March 2025
 **InternzValley**
 February 2024 – April 2024
 
-**Tech Stack:** Scikit-learn, NumPy, Pandas
-
-**Heart Disease Classification**
-
-* Improved accuracy from 80% to 85%.
-* Increased precision from 0.78 to 0.85 (No Disease) and 0.82 to 0.86 (Disease).
-* Increased recall from 0.78 to 0.81 (No Disease) and 0.82 to 0.88 (Disease).
-
-**Titanic Data Analysis**
-
-* Identified survival correlation with ticket class: 63% (1st), 48% (2nd), 25% (3rd).
-* Analyzed gender survival rates: 73% (female), 20% (male).
-* Identified higher survival in age group 0–10 and lowest in 60–80.
+* Built and evaluated ML models using Scikit-learn, NumPy, and Pandas.
+* Improved heart disease classification accuracy from 80% to 85% with measurable gains in precision and recall.
+* Performed exploratory data analysis on the Titanic dataset, identifying survival correlations across class, gender, and age.
 
 ---
 
@@ -58,7 +48,7 @@ Python, FastAPI, Pydantic, Jinja2, Tauri, React
 
 Python, TensorFlow, PyQt5, Flutter, TFLite
 
-* Achieved 99.8% accuracy using transfer learning with MobileNetV2.
+* Achieved 97.8% accuracy using transfer learning with MobileNetV2.
 * Deployed model to Android using TFLite with a custom Flutter UI.
 
 ---
@@ -80,7 +70,6 @@ AndinoHack 2025 – Organized by AndinoLabs
 
 * Built a unified product comparison tool using Python and Streamlit.
 * Integrated OpenAI CLIP for image-based product search.
-* Implemented historical price analysis with wait-time estimation logic.
 
 ---
 
