@@ -10,7 +10,7 @@ Applied Machine Learning and Backend Engineer with experience in building ML sys
 
 ### Software Intern
 
-**AndinoLabs (Andino Global Tech Private Limited)**                                        Bengaluru, Karnataka, India
+**AndinoLabs (Andino Global Tech Private Limited)**  - Bengaluru, Karnataka  -
 September 2025 – March 2025
 
 **Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Amazon SQS, Amazon S3, Azure Foundary, Azure VM
@@ -65,7 +65,7 @@ Python, TensorFlow, PyQt5, Flutter, TFLite
 
 ## Achievements
 
-**Hackathon Winner – PriceWise**
+**Hackathon Winner - PriceWise**
 AndinoHack 2025 – Organized by AndinoLabs
 
 * Built a unified product comparison tool using Python and Streamlit.
