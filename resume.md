@@ -2,7 +2,7 @@
 
 [haroon.naseer@iust.ac.in](mailto:haroon.naseer@iust.ac.in) | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
 
-Applied ML and Backend Engineer with experience in building ML systems and backend services. Experienced in Python, FastAPI, distributed task queues, and cloud-integrated microservices. Strong foundation in ML algorithms, system design, and scalable architectures.
+Applied ML and Backend Engineer with experience in building ML systems and backend services. Experienced in Python, FastAPI, and cloud-integrated microservices. Strong foundation in ML algorithms, system design, and scalable architectures.
 
 ---
 
@@ -51,16 +51,16 @@ Python, FastAPI, Pydantic, Jinja2, Tauri, React, GitHub Actions
 
 ## Skills
 
-**Languages:** Python, C++, Java
-**Backend & Systems:** FastAPI, Microservices, Celery, SQLAlchemy, PostgreSQL, Amazon SQS, Amazon S3
-**ML & Data:** NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch
+**Languages:** Python, C++, Java |
+**Backend & Systems:** FastAPI, Microservices, Celery, SQLAlchemy, PostgreSQL, Amazon SQS, Amazon S3 |
+**ML & Data:** NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch | **Tools:** Git (branching, rebasing, hooks)
 
 ---
 
 ## Achievements
 
 **Hackathon Winner - PriceWise** - AndinoHack 2025 – Organized by AndinoLabs
-* Built a unified product comparison tool using Python and Streamlit and Integrated OpenAI CLIP for image-based product search.
+* Built a unified product comparison tool using Python and Streamlit and Integrated OpenAI CLIP for image-based  search.
 
 ---
 
