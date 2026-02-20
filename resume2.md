@@ -1,3 +1,7 @@
+# Haroon Naseer
+
+[haroon.naseer@iust.ac.in](mailto:haroon.naseer@iust.ac.in) | [LinkedIn](https://www.linkedin.com/in/haroon-naseer-6a44a6240) | [Github](https://github.com/Haroon-64) | [Kaggle](https://www.kaggle.com/haroon222221)
+
 # Applied ML and Backend Engineer
  
 Backend Engineer experienced in building distributed, cloud-ready microservices using Python and FastAPI with focus on scalable API design, asynchronous task orchestration, and reliability in service-to-service architectures.
@@ -58,3 +62,10 @@ Python, TensorFlow, PyQt5, TFLite
  
 B.Tech in Computer Science and Engineering  
 IUST Awantipora, J&K (2021 – 2025)
+
+## Certifications
+
+* Google Data Analytics
+* Machine Learning Specialization
+* Deep Learning Specialization
+* Explainable AI Specialization
