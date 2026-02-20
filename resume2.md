@@ -16,12 +16,13 @@ September 2025 – March 2026
  
 **Tech Stack:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy, Celery, Redis, Amazon SQS, Amazon S3, Azure VM  
  
-- Designed stateless internal APIs for horizontal scaling using a shared Redis-backed task orchestrator.  
-- Implemented request validation with Pydantic and added rate limiting with exponential backoff for external API integrations.  
-- Built asynchronous workflows using Celery with task status tracking, retry policies, and success/failure handlers.  
-- Ensured idempotent processing via database status flags and selective fetching of incomplete records.  
-- Integrated Amazon S3 for externalized file storage to avoid local filesystem dependency.  
-- Implemented structured logging with a centralized logger for traceability across distributed tasks.  
+- Built backend services using FastAPI (MVC) following SDLC practices.
+- Designed stateless internal APIS for horizontal scaling using a Redis-backed task orchestrator.
+- Implemented request validation (Pydantic), rate limiting, and exponential backoff for external API integrations.
+- Built asynchronous microservices using Celery, Redis, and Amazon SQS with task status tracking, retries, and failure handlers. Ensured idempotent processing via database status flags and selective fetching of incomplete records.
+- Improved LLM response reliability using BM25-based RAG grounding.
+- Integrated Amazon S3 for file storage and implemented structured centralized logging.
+- Migrated legacy Python application to 'uv dependency management. 
  
 ---
  
@@ -65,7 +66,4 @@ IUST Awantipora, J&K (2021 – 2025)
 
 ## Certifications
 
-* Google Data Analytics
-* Machine Learning Specialization
-* Deep Learning Specialization
-* Explainable AI Specialization
+* Google Data Analytics - Machine Learning Specialization - Deep Learning Specialization - Explainable AI Specialization 
